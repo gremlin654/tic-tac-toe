@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <main class="main-container">
+      <table class="table-body">
+        <th class="table-string-score">Score:</th>
+        <tr class="table-string">
+          <th class="table-block-player">
+            <span class="span-style-x">Player "X"</span> wins:
+          </th>
+          <th class="table-score-x">0</th>
+        </tr>
+        <tr class="table-string">
+          <th class="table-block-player">
+            <span class="span-style-o">Player "0"</span> wins:
+          </th>
+          <th class="table-score-o">0</th>
+        </tr>
+        <tr class="table-string">
+          <th class="table-block-player">Draw:</th>
+          <th class="table-score-draw">0</th>
+        </tr>
+      </table>
+      <div class="result">
+        Player "<span class="span-style-x">X</span>" turn first
+      </div>
+      <div class="game">
+        <div class="cell c1"></div>
+        <div class="cell c2"></div>
+        <div class="cell c3"></div>
+        <div class="cell c4"></div>
+        <div class="cell c5"></div>
+        <div class="cell c6"></div>
+        <div class="cell c7"></div>
+        <div class="cell c8"></div>
+        <div class="cell c9"></div>
+      </div>
+      <button class="new-game">New game</button>
+    </main>
+    <footer class="footer-container">
+      <div class="footer-link">
+        <div>
+          <a href="https://github.com/gremlin654" class="social-link">
+            <img
+              src="./img/iconmonstr-github-3.svg"
+              width="100"
+              height="40"
+              alt="MyGitHub"
+            />
+          </a>
+        </div>
+        <div>
+          <a href="https://rs.school/js-stage0/" class="social-link">
+            <img
+              src="./img/rs_school_js.svg"
+              width="100"
+              height="40"
+              alt="RS School"
+            />
+          </a>
+        </div>
+        <p class="year">2022</p>
+      </div>
+    </footer>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
