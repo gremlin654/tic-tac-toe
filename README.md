@@ -1,2 +1,2 @@
 # gremlin654-JSFEPRESCHOOL
-Private repository for @gremlin654
+https://rolling-scopes-school.github.io/gremlin654-JSFEPRESCHOOL/js30/tic-tac-toe/
